@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    color: #111111;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 736px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+ .container  {
+    max-width: 1168px;
+  }
+}
+
+.header-title{
+    color: #111;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.28;
+    letter-spacing: -0.03em;
+}
+
+.header-title-span{
+    font-style: italic;
+}
+
+.nav-list{
+ display: none;
+}
+
+@media only screen and (min-width:768px) {
+    .nav-list{
+        display: flex;
+        gap: 24px;
+    }
+
+   .nav-list-link{
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+   }
+
+   .header-nav{
+    display: inline-flex;
+   }
+
+   .header-section .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+.socials-list{
+    display: none;
+}
+
+@media only screen and (min-width:768px) {
+  .socials-list{
+    display: flex;
+    gap: 14px;
+   }
+}
