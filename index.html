@@ -32,9 +32,10 @@
     <header class="header-section">
       <div class="container">
       <nav class="header-nav">
+
         <a class="header-title" href="./index.html">
-          <span class="header-title-span"> SIMPLY </span> CHOCOLATE
-          <img
+          <span class="header-title-span">SIMPLY</span> &nbsp; CHOCOLATE
+          <img class="header-title-img"
             src="./images/logochocolate.svg"
             alt="SIMPLY CHOCOLAT"
             width="21" 
@@ -92,27 +93,31 @@
     <!-- Main content -->
     <main>
       <!-- Hero section -->
-      <section>
+      <section class="hero-section">
         <div class="container">
-        <h1>
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <ul>
-          <li><button type="button">Buy now</button></li>
-          <li><button type="button">How it's made</button></li>
+        <ul class="hero-list">
+          <li class="hero-list-item"><button class="hero-list-btn orange" type="button">Buy now</button></li>
+          <li class="hero-list-item"><button class="hero-list-btn clear" type="button">How it's made</button></li>
         </ul>
       </div>
       </section>
 
       <!-- Features -->
-      <section>
+      <section class="features-section">
         <div class="container">
-        <h2>Next part</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <h2 class="visually-hidden">Next part</h2>
+        <ul class="features-list">
+          <li class="features-list-item">
+            <div class="feature-img">
+            <svg  width="32" height="32">
+              <use class="feature-img-icon" href="./images/chocolate-icons.svg#icon-chocolate"></use>
+            </svg></div>
+            <h3 class="features-list-title">Unsurpassed taste</h3>
+            <p class="features-list-text">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
@@ -120,9 +125,13 @@
             </p>
           </li>
 
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="features-list-item">
+            <div class="feature-img">
+             <svg  width="32" height="32">
+              <use class="feature-img-icon" href="./images/chocolate-icons.svg#icon-coin"></use>
+            </svg></div>
+            <h3 class="features-list-title">Affordable price</h3>
+            <p class="features-list-text">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -131,16 +140,21 @@
             </p>
           </li>
 
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="features-list-item">
+            <div class="feature-img">
+             <svg width="32" height="32">
+              <use class="feature-img-icon" href="./images/chocolate-icons.svg#icon-spoon"></use>
+            </svg></div>
+            <h3 class="features-list-title">Own production</h3>
+            <p class="features-list-text">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
               evident in every bite.
             </p>
           </li>
-        </ul></div>
+        </ul>
+      </div>
       </section>
 
       <!-- Ingredients -->
