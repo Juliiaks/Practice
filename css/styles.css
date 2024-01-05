@@ -364,3 +364,139 @@ padding: 14px 40px;
 .feature-img-icon{
     fill: #FD9222;
 }
+
+
+/* Ingredients */
+
+.ingredients-section{
+    /* padding: 120px 32px; */
+    padding: 80px 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .ingredients-section {
+    padding: 100px 32px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+.ingredients-section {
+     padding: 120px 32px;
+    
+  }
+}
+
+.ingredients-title{
+    color: #111;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+
+        max-width: 283px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 32px;
+}
+
+.ingredients-title-span{
+ color: #FD9222;
+
+}
+
+@media only screen and (min-width: 768px) {
+.ingredients-title {
+        font-size: 24px;
+        line-height: 1.17;
+    
+        max-width: 412px;
+        margin-bottom: 50px;
+  }
+}
+
+.ingredients-list{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+    justify-content: flex-start;
+}
+
+
+.ingredients-list-item{
+    padding: 28px 23px;
+    border-radius: 15px;
+    width: 335px;
+}
+
+.ingredients-list-img{
+    margin-bottom: 32px;
+}
+
+.ingredients-list-item:nth-child(4n + 1){
+    background-color: #FD9222;
+}
+
+.ingredients-list-item:nth-child(2n + 2){
+    background-color: #FFF;
+    border: 1px solid #FD9222;
+
+    color: #111;
+}
+
+.ingredients-list-item:nth-child(4n + 3){
+    background-color: #1E1823;
+}
+
+
+.ingredients-list-item:nth-child(2n + 1) .ingredients-list-text{
+    color: #FFF;
+}
+
+.ingredients-list-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+
+@media only screen and (min-width: 768px) {
+   .ingredients-list{
+    gap: 32px;
+    
+  }
+   .ingredients-list-item{
+    width: 336px;
+   }
+}
+@media only screen and (min-width: 1200px) {
+    .ingredients-list {
+     column-gap: 32px;
+     row-gap: 24px;
+    }
+
+    .ingredients-list-item{
+        width: calc((100% - 96px) / 4);
+    }
+}
+
+.ingredients-list-item:nth-child(2n + 1) .ing-icon-box{
+    border: 1px solid #FAFAFA;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.ingredients-list-item:nth-child(2n + 1) .ing-icon{
+    fill: #FAFAFA;
+}
+
+.ingredients-list-item:nth-child(2n + 2) .ing-icon-box {
+    border: 1px solid orange;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
